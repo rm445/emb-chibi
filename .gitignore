@@ -1,0 +1,10 @@
+# CMake generated directories and files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Common build directory names
+build/

@@ -1,0 +1,25 @@
+project(chibi-demos)
+
+set(LIBS chibi-scheme m)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
+
+add_executable(demo1 demo1.c)
+add_executable(demo2 demo2.c)
+add_executable(demo3 demo3.c)
+add_executable(demo4 demo4.c)
+add_executable(demo5 demo5.c)
+add_executable(demo6 demo6.c)
+add_executable(demo7 demo7.c)
+add_executable(demo8 demo8.c)
+add_executable(demo9 demo9.c)
+
+target_link_libraries(demo1 ${LIBS})
+target_link_libraries(demo2 ${LIBS})
+target_link_libraries(demo3 ${LIBS})
+target_link_libraries(demo4 ${LIBS})
+target_link_libraries(demo5 ${LIBS})
+target_link_libraries(demo6 ${LIBS})
+target_link_libraries(demo7 ${LIBS})
+target_link_libraries(demo8 ${LIBS})
+target_link_libraries(demo9 ${LIBS})
